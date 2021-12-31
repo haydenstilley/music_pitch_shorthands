@@ -89,7 +89,9 @@ A_SHARP6 = 1864.66
 B_FLAT6 = A_SHARP6
 B6 = 1975.53
 
-# Basic chords in the 4th octave. To change octaves of any pitch, you can multiply/divide the Hz values. For example: A4 = 440hz, so (A4 * 2) = 880hz, which is equal to A5. This is an easy way to make chord inversions, too.
+# Basic chords in the 4th octave. To change octaves of any pitch, you can multiply/divide the Hz values.
+#For example: A4 = 440hz, so (A4 * 2) = 880hz, which is equal to A5.
+#This is an easy way to make different chord inversions, too.
 AMAJOR = [A4,C_SHARP4,E4]
 AMINOR = [A4,C4,E4]
 AS_MAJOR = [A_SHARP4,D4,F4]
@@ -120,3 +122,6 @@ FS_MINOR = [F_SHARP4,A4,C_SHARP4]
 GB_MINOR = FS_MINOR
 GMAJOR = [G4,B4,D4]
 GMINOR = [G4,B_FLAT4,D4]
+GS_MAJOR = [G_SHARP4,B_SHARP4,D_SHARP4]
+AB_MAJOR = GS_MAJOR
+GS_MINOR = [G_SHARP4,B4,D_SHARP4]
